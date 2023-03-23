@@ -37,7 +37,7 @@ public class Login_Page extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(102, 102, 102));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel2.setText("UserID : ");
@@ -69,7 +69,6 @@ public class Login_Page extends javax.swing.JFrame {
         });
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Kirtan\\Downloads\\Logo.jpg")); // NOI18N
 
         jButton2.setText("Forgot Password?");
         jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
