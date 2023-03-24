@@ -40,7 +40,7 @@
                               </Group>
                               <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="signup_CradNumber" min="-2" pref="180" max="-2" attributes="0"/>
+                                  <Component id="signup_CardNumber" min="-2" pref="180" max="-2" attributes="0"/>
                                   <Component id="Signup_Username" min="-2" pref="171" max="-2" attributes="0"/>
                                   <Component id="signup_CardExpiryDate" alignment="0" min="-2" pref="171" max="-2" attributes="0"/>
                                   <Component id="Signup_Email" alignment="0" min="-2" pref="171" max="-2" attributes="0"/>
@@ -77,7 +77,7 @@
               <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="signup_CradNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="signup_CardNumber" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -151,9 +151,9 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Signup_UsernameActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="signup_CradNumber">
+    <Component class="javax.swing.JTextField" name="signup_CardNumber">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="signup_CradNumberActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="signup_CardNumberActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="signup_CardExpiryDate">

@@ -33,7 +33,7 @@ public class signupnow extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         Signup_Username = new javax.swing.JTextField();
-        signup_CradNumber = new javax.swing.JTextField();
+        signup_CardNumber = new javax.swing.JTextField();
         signup_CardExpiryDate = new javax.swing.JTextField();
         Signup_Email = new javax.swing.JTextField();
         Signup_Phone = new javax.swing.JTextField();
@@ -64,9 +64,9 @@ public class signupnow extends javax.swing.JFrame {
             }
         });
 
-        signup_CradNumber.addActionListener(new java.awt.event.ActionListener() {
+        signup_CardNumber.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                signup_CradNumberActionPerformed(evt);
+                signup_CardNumberActionPerformed(evt);
             }
         });
 
@@ -124,7 +124,7 @@ public class signupnow extends javax.swing.JFrame {
                                     .addComponent(jLabel5))
                                 .addGap(66, 66, 66)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(signup_CradNumber, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(signup_CardNumber, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(Signup_Username, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(signup_CardExpiryDate, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(Signup_Email, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -152,7 +152,7 @@ public class signupnow extends javax.swing.JFrame {
                 .addGap(37, 37, 37)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
-                    .addComponent(signup_CradNumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(signup_CardNumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(36, 36, 36)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
@@ -208,9 +208,9 @@ public class signupnow extends javax.swing.JFrame {
         dispose();
     }//GEN-LAST:event_jButton2MouseClicked
 
-    private void signup_CradNumberActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_signup_CradNumberActionPerformed
+    private void signup_CardNumberActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_signup_CardNumberActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_signup_CradNumberActionPerformed
+    }//GEN-LAST:event_signup_CardNumberActionPerformed
 
     /**
      * @param args the command line arguments
@@ -261,6 +261,6 @@ public class signupnow extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JTextField signup_CardExpiryDate;
-    private javax.swing.JTextField signup_CradNumber;
+    private javax.swing.JTextField signup_CardNumber;
     // End of variables declaration//GEN-END:variables
 }
