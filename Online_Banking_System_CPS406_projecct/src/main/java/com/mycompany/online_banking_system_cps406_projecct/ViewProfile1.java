@@ -145,12 +145,12 @@ public class ViewProfile1 extends javax.swing.JFrame {
             }
         });
 
-        jPanel2.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel2.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel2.setForeground(new java.awt.Color(0, 153, 153));
 
         jScrollPane2.setViewportView(Viewprofile_name);
 
         jLabel1.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 153, 153));
         jLabel1.setText("My Profile");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
