@@ -69,6 +69,7 @@ public class ChangeAddress extends javax.swing.JFrame {
         });
 
         province_combobox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "AB", "BC", "MB", "NB", "NL", "NS", "NT", "NU", "ON", "PE", "QC", "SK", "YT" }));
+        province_combobox.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         province_combobox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 province_comboboxActionPerformed(evt);
@@ -117,10 +118,10 @@ public class ChangeAddress extends javax.swing.JFrame {
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(province_combobox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(36, 36, 36)
-                                .addComponent(Selecteditem, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(Selecteditem, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 575, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(address_button_cancel))
+                            .addComponent(address_button_cancel)
+                            .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(0, 136, Short.MAX_VALUE)))
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
@@ -221,16 +222,15 @@ public class ChangeAddress extends javax.swing.JFrame {
     private void province_comboboxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_province_comboboxActionPerformed
         // TODO add your handling code here:
         
-    }//GEN-LAST:event_province_comboboxActionPerformed
-
-    private void SelecteditemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SelecteditemActionPerformed
-        // TODO add your handling code here:
-        
         // get selected value from province box
         String selectedValue = province_combobox.getSelectedItem().toString();
         
         // set this selected value into textfield
         Selecteditem.setText(selectedValue);
+    }//GEN-LAST:event_province_comboboxActionPerformed
+
+    private void SelecteditemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SelecteditemActionPerformed
+        // TODO add your handling code here:        
     }//GEN-LAST:event_SelecteditemActionPerformed
 
     private void address_button_saveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_address_button_saveActionPerformed
@@ -239,7 +239,7 @@ public class ChangeAddress extends javax.swing.JFrame {
 
     private void address_button_cancelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_address_button_cancelMouseClicked
         // TODO add your handling code here:
-        ViewProfile obj = new ViewProfile();
+        ViewProfile1 obj = new ViewProfile1();
         obj.setVisible(true);
         dispose();
     }//GEN-LAST:event_address_button_cancelMouseClicked
