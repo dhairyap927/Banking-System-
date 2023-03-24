@@ -62,9 +62,9 @@
                           </Group>
                           <Component id="jButton1" max="32767" attributes="0"/>
                       </Group>
-                      <Component id="jLabel4" min="-2" pref="37" max="-2" attributes="0"/>
                       <Component id="jLabel3" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
                       <Component id="jLabel2" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace pref="363" max="32767" attributes="0"/>
               </Group>

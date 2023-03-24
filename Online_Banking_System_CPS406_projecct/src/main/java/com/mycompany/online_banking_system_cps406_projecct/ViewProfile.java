@@ -307,24 +307,28 @@ public class ViewProfile extends javax.swing.JPanel {
         // TODO add your handling code here:
         ChangeAddress obj = new ChangeAddress();
         obj.setVisible(true);
+        dispose();
     }//GEN-LAST:event_address_buttonMouseClicked
 
     private void number_buttonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_number_buttonMouseClicked
         // TODO add your handling code here:
         ChangeNumber obj = new ChangeNumber();
         obj.setVisible(true);
+        dispose();
     }//GEN-LAST:event_number_buttonMouseClicked
 
     private void email_buttonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_email_buttonMouseClicked
         // TODO add your handling code here:
         ChangeEmail obj = new ChangeEmail();
         obj.setVisible(true);
+        dispose();
     }//GEN-LAST:event_email_buttonMouseClicked
 
     private void occupation_buttonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_occupation_buttonMouseClicked
         // TODO add your handling code here:
         ChangeOccupation obj = new ChangeOccupation();
         obj.setVisible(true);
+        dispose();
     }//GEN-LAST:event_occupation_buttonMouseClicked
 
 
@@ -359,4 +363,8 @@ public class ViewProfile extends javax.swing.JPanel {
     private javax.swing.JButton number_button;
     private javax.swing.JButton occupation_button;
     // End of variables declaration//GEN-END:variables
+
+    private void dispose() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
