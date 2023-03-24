@@ -203,7 +203,7 @@ public class signupnow extends javax.swing.JFrame {
     private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
         // TODO add your handling code here:
         
-        Login_Page obj = new Login_Page();
+        StartPage obj = new StartPage();
         obj.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton2MouseClicked
