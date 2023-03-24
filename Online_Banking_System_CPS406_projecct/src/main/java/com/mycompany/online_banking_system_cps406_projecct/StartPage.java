@@ -4,6 +4,7 @@
  */
 package com.mycompany.online_banking_system_cps406_projecct;
 
+import java.awt.Color;
 /**
  *
  * @author krinal
@@ -15,6 +16,7 @@ public class StartPage extends javax.swing.JFrame {
      */
     public StartPage() {
         initComponents();
+        jPanel1.setFocusable(true);
     }
 
     /**
@@ -111,6 +113,11 @@ public class StartPage extends javax.swing.JFrame {
 
         Start_Password1.setBackground(new java.awt.Color(204, 204, 204));
         Start_Password1.setText("Enter password");
+        Start_Password1.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                Start_Password1FocusGained(evt);
+            }
+        });
         Start_Password1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Start_Password1ActionPerformed(evt);
@@ -125,13 +132,26 @@ public class StartPage extends javax.swing.JFrame {
         jLabel6.setText("Password");
 
         Start_CardNumber1.setBackground(new java.awt.Color(204, 204, 204));
-        Start_CardNumber1.setText("Enter card number");
+        Start_CardNumber1.setText("Enter Card Number");
+        Start_CardNumber1.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                Start_CardNumber1FocusGained(evt);
+            }
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                Start_CardNumber1FocusLost(evt);
+            }
+        });
+        Start_CardNumber1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Start_CardNumber1ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 700, Short.MAX_VALUE)
+            .addGap(0, 704, Short.MAX_VALUE)
             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel2Layout.createSequentialGroup()
                     .addGap(194, 194, 194)
@@ -168,7 +188,7 @@ public class StartPage extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap(102, Short.MAX_VALUE)
+                .addContainerGap(98, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -252,6 +272,33 @@ public class StartPage extends javax.swing.JFrame {
         obj.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton3MouseClicked
+
+    private void Start_CardNumber1FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_Start_CardNumber1FocusGained
+       
+        if(Start_CardNumber1.getText().equals("Enter Card Number")){
+            Start_CardNumber1.setText("");
+        }
+        
+        Start_CardNumber1.setForeground(Color.BLACK);
+    }//GEN-LAST:event_Start_CardNumber1FocusGained
+
+    private void Start_CardNumber1FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_Start_CardNumber1FocusLost
+        
+        if(Start_CardNumber1.getText().equals("")){
+            Start_CardNumber1.setText("Enter Card Number");
+        }
+        
+        Start_CardNumber1.setForeground( Color.BLACK);
+    
+    }//GEN-LAST:event_Start_CardNumber1FocusLost
+
+    private void Start_Password1FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_Start_Password1FocusGained
+        
+    }//GEN-LAST:event_Start_Password1FocusGained
+
+    private void Start_CardNumber1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Start_CardNumber1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Start_CardNumber1ActionPerformed
 
     /**
      * @param args the command line arguments
