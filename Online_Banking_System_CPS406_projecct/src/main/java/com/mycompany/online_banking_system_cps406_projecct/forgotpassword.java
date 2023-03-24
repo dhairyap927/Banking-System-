@@ -184,7 +184,7 @@ public class forgotpassword extends javax.swing.JFrame {
 
     private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
         // TODO add your handling code here:
-        StartPage obj = new StartPage();
+        StartPage1 obj = new StartPage1();
         obj.setVisible(true);
         dispose();
         
