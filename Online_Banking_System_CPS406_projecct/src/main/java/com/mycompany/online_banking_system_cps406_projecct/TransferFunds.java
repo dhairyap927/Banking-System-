@@ -184,7 +184,7 @@ public class TransferFunds extends javax.swing.JFrame {
     private void jComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox2ActionPerformed
         // TODO add your handling code here:
         String selectedValue = jComboBox2.getSelectedItem().toString();
-        TransferFunds_To.setText(selectedValue);
+        
     }//GEN-LAST:event_jComboBox2ActionPerformed
 
     private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
@@ -199,7 +199,7 @@ public class TransferFunds extends javax.swing.JFrame {
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
         // TODO add your handling code here:
         String selectedValue = jComboBox1.getSelectedItem().toString();
-        TransferFunds_From.setText(selectedValue);
+        
     }//GEN-LAST:event_jComboBox1ActionPerformed
 
     private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
