@@ -4,6 +4,7 @@
  */
 package com.mycompany.online_banking_system_cps406_projecct;
 
+import java.awt.Color;
 import javax.swing.JOptionPane;
 
 /**
@@ -17,6 +18,7 @@ public class TransferFunds extends javax.swing.JFrame {
      */
     public TransferFunds() {
         initComponents();
+        jDesktopPane1.setFocusable(true);
     }
 
     /**
@@ -68,6 +70,15 @@ public class TransferFunds extends javax.swing.JFrame {
             }
         });
 
+        jTextField3.setText("Enter Amount");
+        jTextField3.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                jTextField3FocusGained(evt);
+            }
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                jTextField3FocusLost(evt);
+            }
+        });
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField3ActionPerformed(evt);
@@ -197,6 +208,25 @@ public class TransferFunds extends javax.swing.JFrame {
        obj.setVisible(true);
        dispose();
     }//GEN-LAST:event_jButton2MouseClicked
+
+    private void jTextField3FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField3FocusGained
+        
+        if(jTextField3.getText().equals("Enter Amount")){
+            jTextField3.setText("");
+        }
+        
+        jTextField3.setForeground(Color.BLACK);
+    }//GEN-LAST:event_jTextField3FocusGained
+
+    private void jTextField3FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField3FocusLost
+        
+        if(jTextField3.getText().equals("")){
+            jTextField3.setText("Enter Amount");
+        }
+        
+        jTextField3.setForeground( Color.BLACK);
+    
+    }//GEN-LAST:event_jTextField3FocusLost
 
     /**
      * @param args the command line arguments
