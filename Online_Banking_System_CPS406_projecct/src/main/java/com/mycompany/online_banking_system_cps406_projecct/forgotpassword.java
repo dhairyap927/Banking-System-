@@ -67,7 +67,6 @@ public class forgotpassword extends javax.swing.JFrame {
             }
         });
 
-        Forgotpassword_Cardexpirydate.setText("jTextField2");
         Forgotpassword_Cardexpirydate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Forgotpassword_CardexpirydateActionPerformed(evt);
