@@ -233,7 +233,7 @@
               <Font name="Helvetica Neue" size="13" style="1"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="99" green="99" red="0" type="rgb"/>
+              <Color blue="b9" green="97" red="75" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Change address &gt;"/>
           </Properties>
@@ -271,7 +271,7 @@
               <Font name="Helvetica Neue" size="13" style="1"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="99" green="99" red="0" type="rgb"/>
+              <Color blue="b9" green="97" red="75" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Change number &gt;"/>
           </Properties>
@@ -302,7 +302,7 @@
               <Font name="Helvetica Neue" size="13" style="1"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="99" green="99" red="0" type="rgb"/>
+              <Color blue="b9" green="97" red="75" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Change email &gt;"/>
           </Properties>
@@ -339,7 +339,7 @@
               <Font name="Helvetica Neue" size="13" style="1"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="99" green="99" red="0" type="rgb"/>
+              <Color blue="b9" green="97" red="75" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Change occupation &gt;"/>
           </Properties>
@@ -351,7 +351,7 @@
         <Component class="javax.swing.JButton" name="Back_button">
           <Properties>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="99" green="99" red="0" type="rgb"/>
+              <Color blue="b9" green="97" red="75" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Back"/>
           </Properties>
@@ -362,7 +362,7 @@
         <Container class="javax.swing.JPanel" name="jPanel2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="99" green="99" red="0" type="rgb"/>
+              <Color blue="b9" green="97" red="75" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="99" green="99" red="0" type="rgb"/>

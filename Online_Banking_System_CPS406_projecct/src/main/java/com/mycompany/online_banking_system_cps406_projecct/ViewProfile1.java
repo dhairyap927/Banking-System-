@@ -71,7 +71,7 @@ public class ViewProfile1 extends javax.swing.JFrame {
         jScrollPane1.setViewportView(Viewprofile_address);
 
         jButton1.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(0, 153, 153));
+        jButton1.setForeground(new java.awt.Color(117, 151, 185));
         jButton1.setText("Change address >");
         jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -91,7 +91,7 @@ public class ViewProfile1 extends javax.swing.JFrame {
         jSeparator5.setForeground(new java.awt.Color(102, 102, 102));
 
         number.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        number.setForeground(new java.awt.Color(0, 153, 153));
+        number.setForeground(new java.awt.Color(117, 151, 185));
         number.setText("Change number >");
         number.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -109,7 +109,7 @@ public class ViewProfile1 extends javax.swing.JFrame {
         jScrollPane4.setViewportView(Viewprofile_email);
 
         email.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        email.setForeground(new java.awt.Color(0, 153, 153));
+        email.setForeground(new java.awt.Color(117, 151, 185));
         email.setText("Change email >");
         email.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -124,7 +124,7 @@ public class ViewProfile1 extends javax.swing.JFrame {
         jScrollPane5.setViewportView(Viewprofile_occupation);
 
         occupation.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        occupation.setForeground(new java.awt.Color(0, 153, 153));
+        occupation.setForeground(new java.awt.Color(117, 151, 185));
         occupation.setText("Change occupation >");
         occupation.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -137,7 +137,7 @@ public class ViewProfile1 extends javax.swing.JFrame {
             }
         });
 
-        Back_button.setForeground(new java.awt.Color(0, 153, 153));
+        Back_button.setForeground(new java.awt.Color(117, 151, 185));
         Back_button.setText("Back");
         Back_button.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -145,7 +145,7 @@ public class ViewProfile1 extends javax.swing.JFrame {
             }
         });
 
-        jPanel2.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel2.setBackground(new java.awt.Color(117, 151, 185));
         jPanel2.setForeground(new java.awt.Color(0, 153, 153));
 
         jScrollPane2.setViewportView(Viewprofile_name);
