@@ -4,6 +4,8 @@ Welcome to the Banking System project! This system aims to provide a user-friend
 
 The Banking System project is designed to enable customers to perform various banking operations efficiently and securely. It incorporates features such as login, withdrawal, deposit, funds transfer, and bill payments. The system employs Java Swing for the graphical user interface (GUI) and Java for handling the core banking operations. MySQL is utilized as the database to store customer account information and transaction records.
 
+Access the code following this pathway : Banking-System-/Online_Banking_System_CPS406_projecct/src/main/java/com/mycompany
+
 ## Features and Use Cases
 
 The main features and use cases of the Banking System project include:
